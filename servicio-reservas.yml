@@ -17,6 +17,6 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
   instance:
-    instance-id: servicio-hoteles
+    instance-id: servicio-reservas
 server:
   port: 8002
