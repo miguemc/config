@@ -15,6 +15,6 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://A06P0189.madrid.altia.local:8761/eureka
 server:
   port: 8000
