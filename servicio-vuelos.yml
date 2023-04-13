@@ -17,7 +17,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
   instance:
-    instance-id: servicio-vuelos
+    instance-id: ${random.value}:${spring.application.name}
     hostname: localhost   
 server:
   port: 8001
