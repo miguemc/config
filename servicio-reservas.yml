@@ -4,7 +4,7 @@ spring:
             matching-strategy: ANT_PATH_MATCHER
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/agencia?serverTimezone=UTC
+    url: jdbc:mysql://10.2.103.229:3306/agencia?serverTimezone=UTC
     username: root
     password: CursoSpring2023
   jpa:
@@ -15,7 +15,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://10.2.103.241:8761/eureka
   instance:
     instance-id: servicio-reservas
     hostname: localhost
