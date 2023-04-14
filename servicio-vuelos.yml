@@ -19,5 +19,3 @@ eureka:
   instance:
     hostname: 10.2.103.241
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}  
-server:
-  port: ${random.int(5000,6000)}
